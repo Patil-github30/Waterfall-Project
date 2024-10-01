@@ -1,0 +1,197 @@
+Business Requirement Document
+
+1. Document Revision-
+
+|     Date    |     Version number     |     Document Changes    |  
+|-------------|------------------------|-------------------------|
+|             |                        |                         |   
+|             |                        |                         |   
+|             |                        |                         |   
+
+2. Approvals-
+
+|     Role                |     Name                      |     Title                     |     Signature            |     Date          |   
+|-------------------------|-------------------------------|-------------------------------|--------------------------|-------------------|
+|     Project Sponsor     |     Mrs.   Jaya Chauhan       |     CEO                       |     Jaya   Chauhan       |     30/04/2022    |   
+|     Business Owner      |     Mr.   Tanmay Holkar       |     Head of Operations        |     Tanmay   Holkar      |     30/04/2022    |   
+|     Project Manager     |     Mr.   Nishant Jadhav      |     Project Manager           |     Nishant   Jadhav     |     30/04/2022    |   
+|     System Architect    |     Mrs.   Kokila Tambe       |     Chief Architect           |     Kokila   Tambe       |     30/04/2022    |   
+|     Development         |     Mrs. Arti   Shukla        |     Senior Developer          |     Arti   Shukla        |     30/04/2022    |   
+|     Lead User           |     Mr.   Raghav Mehara       |     Lead User                 |     Raghav   Mehara      |     30/04/2022    |   
+|     Experience Lead     |     Mrs.   Saniya Pataskar    |     UX Lead                   |     Saniya   Pataskar    |     30/04/2022    |   
+|     Quality Lead        |     Mr.   Piyush Dangare      |     Quality Assurance Lead    |     Piyush   Dangare     |     30/04/2022    |   
+|     Content Lead        |     Mrs.   Rutuja Lodha       |     Content Manager           |     Rutuja   Lodha       |     30/04/2022    |  
+
+3.	RACI Chart for this Document
+
+| Name                 | Position         | * | R | A | C | I |
+|----------------------|------------------|---|---|---|---|---|
+| Mrs. Jaya Chauhan    | Project Sponsor  |   | Y |   |   |   |
+| Mr. Tanmay Holkar    | Business Owner   |   | Y |   |   |   |
+| Mr. Nishant Jadhav   | Project Manager  |   | Y |   |   |   |
+| Mrs. Kokila Tambe    | System Architect |   |   | Y |   |   |
+| Mrs. Arti Shukla     | Development      |   | Y |   |   |   |
+| Mr. Raghav Mehara    | Lead User        |   | Y |   |   |   |
+| Mrs. Saniya Pataskar | Experience Lead  |   | Y |   |   |   |
+| Mr. Piyush Dangare   | Quality Lead     |   | Y |   |   |   |
+| Mrs. Rutuja Lodha    | Content Lead     |   | Y |   |   |   |
+
+4. Introduction
+
+  4.1 Business Goals
+      In today’s world, the demand for convenient and efficient food delivery services is on rise.
+	    The restaurant is seeking effective and reliable solution to meet the customer needs.
+      However, there are many existing platforms for the same.
+    	But they are facing many issues like delivery delays, lack of delivery boys or even usability issue.
+    	Also, there are issues regarding inability to adapt the changing market trends.
+    	Inefficient Food Ordering.
+    	Limited Restaurant Partnership.
+    	Slow delivery of food.
+    	Less Delivery boys available.
+    	To address the challenges mentioned previously, and also to provide seamless experience for both the customers as well as for the restaurant owners, we aim to develop a comprehensive Food Ordering System.
+    	To enhance the user experience.
+    	To increase restaurant partnership.
+    	To improve delivery.
+
+4.2 Business Objectives
+    Increase revenue.
+  	To increase restaurant partnership.
+  	To enhance user experience through effective user interface design and efficient order processing.
+  	To improve delivery.
+  	Ensure the confidentiality of customers data.
+  	To improve delivery.
+
+4.3 Business Rules
+    	Customer can create account to place order.
+	Restaurant owner can create account to register the restaurant.
+	Orders can be placed only within the restaurant hours.
+	Customer should provide correct address in order to get the delivery.
+	The food items that are currently available should only be shown in the list.
+	Menu search should be available by multiple filters.
+	Customer should provide valid payment details before proceeding to place order.
+	Payment must be processed securely.
+	After payment is done, the customer should get email confirmation regarding their order.
+	The system should send notifications to the customer regarding the order status.
+	The customer should be allowed to cancel their order.
+	After cancellation of order, the refund should be processed automatically.
+	Customer should have option to provide feedback and ratings.
+	Reviews and ratings should be display to all.
+
+4.4 Background
+    	In today’s world, the demand for convenient and efficient food delivery services is on rise.
+	The restaurant is seeking effective and reliable solution to meet the customer needs.
+	However, there are many existing platforms for the same.
+	But they are facing many issues like delivery delays, lack of delivery boys or even usability issue.
+	Also, there are issues regarding inability to adapt the changing market trends.
+	Inefficient Food Ordering.
+	Limited Restaurant Partnership.
+	Slow delivery of food.
+	Less Delivery boys available.
+	Consumer demand- with increase in digitalization, the consumers are finding convenient ways to order food from their favorite restaurant.
+	Operational Efficiency- Many restaurants face issue in taking orders through phone calls which may lead to sometimes delivering wrong order or delays.
+
+Expected Benefits of Implementing the project-
+
+	Increase in the revenue.
+	Improved Customer Experience
+	Restaurant partnership will increase
+	Operational Efficiency
+	The number of customers for registration will be increased.
+
+4.5 Project Objective
+    	The primary objective of this application is to develop such system which is user friendly and it helps the user to place food orders online in a seamless manner.
+	Also, it will help the restaurant owners to manage the orders they have received.
+	By this, the revenue will also increase and also the user experience will also be enhanced.
+	Customer Interface- The system will provide user friendly interface for the customer to order food. The customers will be able to browse the menu, place orders, add food items into the cart, make payment securely, also multiple payment modes will be present for the customers convenience.
+	Restaurant Owners Interface- The restaurant owners will be able to add or remove the menu from the list, they will be able to update the prices of each menu from the list, also they will be able to mention the availability of particular food, they will be able to process and track the orders.
+	The customers and the restaurant owners will get the real time updates regarding the order.
+	The system will also enable the customers to provide the feedback and ratings.
+	The restaurant owners can analyse this data in order to make any kind of improvement.
+
+4.6 Project Scope
+    	User Registration- Customers should be able to register themselves in the application.
+	User Login- After registration, the customers should be able to login to the application.
+	Browse Menu- Customers should be able to browse the menu from the list.
+	Place Order- Customer should be able to place order, also he should be able to track his orders, mention the correct address for delivery.
+	Secure payment processing should be there.
+	Customer should be able to pay money through various modes of payment like COD, Credit card, Debit Card, UPI.
+	Restaurant Registration- Restaurant owner should be able to register in to the application.
+	Restaurant Login- Restaurant owner should be able to login to the system.
+	Managing Menu- Restaurant owner should be able to manage the menu list.
+	Customers should be able to provide the feedback.
+	Depending upon the feedback received, the restaurant owners should be able to make feasible changes.
+
+4.6.1 In-Scope Functionality
+    	Customer Login
+	Customer Registration
+	Restaurant Owner Registration
+	Restaurant Owner Login
+	Browsing Menu
+	Secure Payment Process
+	Order Tracking
+	Menu Management
+	Order Management
+	Feedbacks and Ratings
+
+4.6.2 Out-Scope Functionality
+	Table Reservations
+	Ordering offline
+	Multi-language support
+	Payment Processing
+	Restaurant Management
+	Inventory Management
+	Customer Relationship Management
+
+5. Assumption
+    	Internet Connectivity- It is assumed that the users of the application have stable internet.
+	Device Compatibility- It is assuming that the user has devices that are compatible to web browsers.
+	User Friendly
+	Payment Security
+	Order Accuracy
+	Data Privacy
+
+6.	Constraints 
+
+	Compatibility Issues
+	Performance issue
+	Vulnerable security
+	Scalability Challenges
+	Skill Gaps
+
+7. Risk
+
+	Technological Risk-
+Compatibility Issue- Introducing new technology or updating the existing one can lead to compatibility issue.
+Security Concerns- Implementing new technology can lead to security issues. If these security issues are not addressed then it may lead to data breach or even financial loss.
+Scalability Concerns 
+Vulnerable security
+Performance Challenges
+
+	Skills Risk- These are the risks related to the skills.
+Technical Expertise- There may be a risk that the team is weak in technical knowledge.
+Domain Knowledge- To develop a food ordering system, we should have good understanding of food industry, also the customer needs, restaurant operations, how this application will work.
+
+	Political Risk- Changes in the policies.
+Regulatory Changes- If the government changes the rules regarding the food safety, data privacy, taxation, etc.
+Public Health related policies- These polices are related to public health such has hygiene of food; good quality of food can impact the functionality of food ordering system.
+
+	Business Risk-
+Market Risk- The food industry is highly Competitive. This can lead to increase in prices. 
+Changing customer preferences- Customer needs keep on changing from time to time. So, failure to adapt these changes can also lead to loss or less revenue.
+Technology Changes- Now a days, technology is changing vary rapidly. To keep cope with the technologies is very difficult. Failure of this can lead to outdated features, security issues, compatibility issue.
+
+
+	Requirement Risk-
+Gathering Requirements- At the time of gathering requirements, if any requirement is missed then that can cause failure.
+Ambiguous Requirements- Lack of clarity can cause misunderstanding and misinterpretation of requirements. This will not meet the customers’ requirements.
+Changing Requirements- Project requirements may keep on changing due to change in requirements. If these changing requests are not managed effectively, then scope creep may occur.
+Conflict between requirements
+Unrealistic Expectations- These kinds of expectations can also cause failure of project.
+  
+	Other Risk-
+
+
+
+
+
+
