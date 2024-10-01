@@ -1,3 +1,29 @@
+# Waterfall Model-
+•	Waterfall model is useful in the situation where the project requirements are well defined and the project goals are clear.
+•	Waterfall model follows sequential approach.
+•	In this model each phase is completed entirely and then only moved to the next phase.
+•	Waterfall model relies on documentation to ensure that the project is well defined and project team is working toward clear goals.
+•	Ones that particular phase has been completed and ones we move to the next phase , we cannot go back to the previous phase to make changes. 
+•	This model is stable for the projects when the requirements are clear.
+•	Phases of waterfall model-
+
+Requirements Gathering- In this phase, all the requirements are gathered from the stakeholder.
+These requirements are analysed to understand the scope of the project.
+
+Design- After the requirements are cleared, Design phase starts.
+This has a detailed design document that outlines the software architecture, user interface, and system components.
+
+Development- The Development phase include implementation. 
+It involves coding the software based on the design specifications. 
+
+Testing- In the testing phase, the software is tested as a whole to ensure that it meets the requirements and is free from defects.
+
+Deployment- Once the software has been tested and approved, it is deployed to the production environment.
+
+Maintenance- This is the final stage of waterfall model.
+It involves fixing any issues that arise after the software has been deployed and ensuring that it continues to meet the requirements over time. 
+
+
 # Waterfall-Project
 
 **Project Overview**
