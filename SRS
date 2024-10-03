@@ -1,0 +1,139 @@
+What is SRS?
+SRS stands for Software Requirement Specification.
+It is a detailed document that outlines the requirements of the software.
+It serves as a blueprint for both- the developer as well as stakeholder.
+It contains following contents:-
+
+1. Introduction
+2. Overview
+3. Acronyms and Definations
+4. Operational Requirements
+    4.1 Hardware Requirements
+    4.2 Software Requirements
+5. References
+6. Design and Implementation Constraints
+7. Assumed Factors That Could Affect the Requirements Stated in SRS
+8. System Overview
+  8.1 Current System
+  8.2 Proposed System
+9. Benefits of Proposed System
+10. UI Requirements
+11. Other Parameters
+  11.1Acceptance
+____________________________________________________________________________________________________________________________________________________________________________________________________________________
+
+Software Requirement Specification [SRS] Document
+
+1.	Introduction
+This document describes the Software Requirements Specification (SRS) for a Food Ordering System developed using the Waterfall model. 
+It outlines the functional and non-functional requirements, system overview, hardware and software requirements, and other specifications required for the development of the system.
+
+2.	Overview
+The Food Ordering System is designed to facilitate customers to order food from various restaurants through an online platform. 
+The system allows customers to browse menus, select dishes, place orders, and track delivery status. 
+The system is structured to support multiple restaurants, maintain user profiles, process payments, and manage order histories.
+
+3.	Acronyms and Definition
+SRS: Software Requirements Specification
+UI: User Interface
+UX: User Experience
+HTTP: Hypertext Transfer Protocol
+SQL: Structured Query Language
+DOD: Definition of Done
+CRUD: Create, Read, Update, Delete
+API: Application Programming Interface
+
+4.	Operational Requirements
+Hardware Requirements
+Minimum 8 GB RAM
+Intel Core i5 or higher
+500 GB Hard Disk
+Network Connectivity: 10/100/1000 Mbps Ethernet Adapter or Wireless LAN Adapter
+
+Software Requirements
+Operating System: Windows 10 or higher / Ubuntu 18.04 or higher
+Database: MySQL 8.0
+Programming Languages: Java, JavaScript
+Framework: Spring Boot for Backend, React for Frontend
+IDE: IntelliJ IDEA / Eclipse / Visual Studio Code
+Web Server: Apache Tomcat 9.0
+Version Control: Git
+Browser: Google Chrome, Mozilla Firefox, or Microsoft Edge
+
+5.	References
+Proposal Document: Includes detailed description of project scope, objectives, and initial requirements.
+User Requirements Document: Specifies the requirements based on user research and feedback.
+
+6.	Design and Implementation Constraints
+Technologies and Tools:
+The project is constrained to use the Spring Boot framework for backend and React for frontend. Java must be used for business logic implementation, and MySQL must be used for database management.
+Programming Languages:
+Development must be carried out using Java, JavaScript, HTML/CSS. Any other programming languages should be avoided unless necessary.
+Database Constraints:
+The system should adhere to ACID properties for transactions. Data must be stored in MySQL using normalized schemas to avoid data redundancy.
+Development Standards:
+The project must follow Agile principles for coding standards, including the use of Git for version control. Any third-party developers should adhere to the coding style guide provided.
+Hardware Limitations:
+The system should be optimized for low memory usage. Processing should be completed in under 5 seconds for standard CRUD operations on a database with up to 1,000,000 records.
+Standard Data Interchange Formats:
+All data interchange should use JSON format for APIs. The system must support standard HTTP verbs for RESTful services.
+
+7.	Assumed Factors That Could Affect the Requirements Stated in SRS
+Unavailability of skilled developers for specified technologies.
+Changes in user requirements based on market trends.
+Data privacy regulations may require adjustments in data storage and processing.
+Limited budget and resources could impact the scope of certain features.
+
+8.	System Overview
+8.1 Current System
+In todays world, the demand for convenient and efficient food delivery services is on rise.
+The restaurant are seeking effective and reliable solution to meet the customer needs.
+However, there are many existing platform for the same.
+But they are facing many issues like delivery delays, lack of delivery boys or even usability issue.
+Also there are issues regarding inability to adapt the changing market trends.
+Inefficient Food Ordering.
+Limited Restaurant Partnership.
+Slow delivery of food.
+Less Delivery boys available.
+
+8.2 Proposed System
+The proposed system will digitize the ordering process, enabling users to browse restaurant menus online, place orders, and make payments. 
+The system will also support multiple delivery options, order tracking, and reviews. 
+The restaurant managers will have a dedicated interface to update menus, track orders, and manage promotions.
+
+9.	Benefits of Proposed System
+Reduced Human Error: Automation of the order process reduces errors.
+Improved User Experience: Users can easily browse, order, and pay without needing human intervention.
+Enhanced Efficiency: Streamlined processes reduce time for order processing and improve order management.
+Real-time Updates: Users and restaurant managers receive real-time status updates for every order.
+
+10.	UI Requirements
+User Module:
+            User Registration and Login
+            Profile Management (Update Contact Info, Delivery Addresses)
+            Order History
+            Password Management
+
+Menu Module:
+            Browse Menus by Restaurant
+            Filter by Categories (e.g., Desserts, Main Course, Beverages)
+            Add Items to Cart
+
+Order Module:
+              Cart Management (Add, Remove, Update Quantities)
+              Order Placement
+              Payment Gateway Integration
+              Order Tracking
+              Admin Module (Restaurant Managers):
+              Menu Management (Add, Update, Delete Items)
+              Order Management
+              Promotions and Discounts
+              Reports and Analytics
+
+11.	Other Parameters
+Acceptance:
+The acceptance criteria for the project include:
+1.	The system should be able to handle 1000 concurrent users without performance degradation.
+2.	All critical bugs must be fixed before the final deployment.
+3.	Data security should comply with industry standards.
+4.	The system should pass User Acceptance Testing (UAT) and adhere to the Definition of Done (DOD).
