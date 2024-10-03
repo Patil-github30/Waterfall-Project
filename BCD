@@ -5,7 +5,7 @@ The purpose of this document is to provide a brief overview of the business case
 The aim of this system is to provide to provide seamless experience for both the customers as well as for the restaurant owners.
 There are several factors considered to initiate this project-
 	=>Market Demand
-  =>Competitive Pressure
+  	=>Competitive Pressure
 	=>Growth in the revenue
 	=>Increase in customers’ Expectations
 
@@ -14,23 +14,23 @@ In today’s world, the demand for convenient and efficient food delivery servic
 The restaurants are seeking effective and reliable ways to meet the customer’s needs.
 But currently there are many issues that are being faced by the application.
 The problems are-
-=>	Delay in delivery that the expected time.
-=>	Number of delivery boys are less than expected.
-=>	Usability issues.
-=>	Inability to adapt the change in the market trends.
-=>	Limited restaurant partnership.
-=>	Not meeting customer requirements to point.
-=>	Not meeting the restaurant owners needs to point.
+	=>Delay in delivery that the expected time.
+	=>Number of delivery boys are less than expected.
+	=>Usability issues.
+	=>Inability to adapt the change in the market trends.
+	=>Limited restaurant partnership.
+	=>Not meeting customer requirements to point.
+	=>Not meeting the restaurant owners needs to point.
 
 *With this project how many problems could be solved?
 By implementing this system, many problems can be resolved-
-=>	Market Demand.
-=>	Lack of Revenue.
-=>	Customer dissatisfaction.
-=>	Increase efficiency in processing orders.
-=>	Increase scalability in order to accommodate a greater number of customers and the restaurant.
-=>	Also to process the order efficiently.
-=>	Meet the customers’ requirements.
+	=>Market Demand.
+	=>Lack of Revenue.
+	=>Customer dissatisfaction.
+	=>Increase efficiency in processing orders.
+	=>Increase scalability in order to accommodate a greater number of customers and the restaurant.
+	=>Also to process the order efficiently.
+	=>Meet the customers’ requirements.
 
 *What are the resources required?
 The resources required will be as follows-
